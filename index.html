@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+    <!-- //defer script아래로 내리는 효과 -->
+    <title>내배캠 최고 평점 영화</title>
+  </head>
+  <body>
+    <header class="mytitle">
+      <h1 class="h1">내배캠 최고 평점 영화 콜렉션</h1>
+      <form class="search">
+        <label class="search-txt">영화 검색 : </label>
+        <input
+          class="input_txt"
+          type="text"
+          id="searchInput"
+          placeholder="영화 제목을 검색해 보세요."
+          autofocus
+        />
+        <button onclick="filter()" class="search-btn" id="searchBtn">
+          검색
+        </button>
+      </form>
+    </header>
+    <!-- vscode
+document.
+안들어가면 JQueary -->
+    <div class="parent-element"></div>
+  </body>
+</html>

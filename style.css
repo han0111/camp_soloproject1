@@ -1,0 +1,38 @@
+* {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  padding: 50px;
+}
+.search {
+  margin-top: 20px;
+}
+.search-txt {
+  font-size: 25px;
+}
+.input_txt {
+  margin: 10px 15px 10px 30px;
+  font-size: 20px;
+  width: 700px;
+  height: 40px;
+}
+.search-btn {
+  font-size: 25px;
+}
+.parent-element {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3줄씩 일정한 비율 정렬 */
+}
+.card {
+  margin: 20px 80px 20px 80px;
+  border: 3px solid green;
+}
